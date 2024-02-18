@@ -18,7 +18,9 @@ public class Main {
         System.out.println("s4 name = "  + s4.name);
         System.out.println(System.identityHashCode(s3.name));
         System.out.println(System.identityHashCode(s4.name));
-
-
+        printmain();  // 유틸리티성 사용 객체 생성없이 메서드 사용 static 메서드가 됨
+    }
+     static void printmain(){
+        System.out.println(11);
     }
 }
